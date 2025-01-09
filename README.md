@@ -36,4 +36,4 @@ git clone https://github.com/dreamhartley/ComfyUI_show_seed.git
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
