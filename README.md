@@ -6,24 +6,17 @@ A ComfyUI custom node that extracts and displays the seed value used in image ge
 
 - ComfyUI randomly updates seed values after each generation
 - Default interface doesn't show seed values intuitively
-- Checking seed values of good results requires extra steps
-- Difficult to upscale images while maintaining the same seed
+- Helps maintain seed consistency when upscaling images
 
 ## Features
 
-- Extracts and displays seed values from KSampler nodes in real-time
-- Passes through image data unchanged without affecting the workflow
-- Simple and seamless integration with existing ComfyUI workflows
-- Makes it easy to record and reproduce good results
-- Improves workflow efficiency for image upscaling
+- Displays seed values from KSampler nodes in real-time
+- Passes through image data unchanged
+- Simple integration with existing workflows
 - Zero configuration required - just plug and play
 
 ## Usage
-
-1. Add the Show Seed node to your workflow
-2. Connect it after your KSampler node
-3. The seed value will be displayed directly on the node
-4. Continue your workflow as normal - the image data passes through unchanged
+Connect it after your KSampler node, and the seed value will be displayed directly on the node.
 
 ## Installation
 
