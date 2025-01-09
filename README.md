@@ -1,12 +1,12 @@
 # ComfyUI Show Seed
 
-A ComfyUI custom node that saves images while displaying the seed value used in generation.
+A ComfyUI custom node that extracts and displays the seed value used in image generation.
 
 ## Features
 
-- Saves images with automatic numbering
-- Extracts and displays seed value from KSampler nodes
-- Preserves workflow data in image metadata
+- Extracts seed value from KSampler nodes
+- Passes through image data unchanged
+- Simple integration with existing ComfyUI workflows
 
 ## Installation
 
@@ -18,14 +18,23 @@ git clone https://github.com/dreamhartley/ComfyUI_show_seed.git
 
 ## Usage
 
-1. Find the node under the "image" category as "Save Image(show seed)"
-2. Connect your image output to this node
-3. Set your desired filename prefix
-4. The node will save your image and display the seed used in generation
+1. Find the node as "Show Seed"
+2. Connect your image output to this node's image input
+3. Connect the image output to a Save Image node
+4. Connect the seed_info output to a Text node to display the seed value
 
 ## Example Workflow
 
 ![Example Workflow](example/workflow.png)
+
+The node works as a pass-through for image data while extracting the seed information:
+- Input image → Show Seed → Save Image node
+- Show Seed (seed_info) → Text node
+
+## Node Outputs
+
+- **images**: Original image data (connect to Save Image node)
+- **seed_info**: Extracted seed value (connect to Text node)
 
 ## License
 
