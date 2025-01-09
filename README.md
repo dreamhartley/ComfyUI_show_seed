@@ -7,7 +7,6 @@ A ComfyUI custom node that saves images while displaying the seed value used in 
 - Saves images with automatic numbering
 - Extracts and displays seed value from KSampler nodes
 - Preserves workflow data in image metadata
-- Compatible with ComfyUI Manager
 
 ## Installation
 
