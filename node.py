@@ -33,14 +33,11 @@ class ShowSeed:
             return None
 
     def process(self, images, prompt=None):
-        # 提取seed
         seed_value = self.extract_seed(prompt)
         seed_text = f"Seed: {seed_value}" if seed_value is not None else "Seed not found"
         
-        # 直接返回图像和seed信息
         return (images, seed_text)
 
-# 节点映射
 NODE_CLASS_MAPPINGS = {
     "Show Seed": ShowSeed
 }
