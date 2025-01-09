@@ -11,12 +11,6 @@ A ComfyUI custom node that saves images while displaying the seed value used in 
 
 ## Installation
 
-### Using ComfyUI Manager (Recommended)
-1. Install [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
-2. Go to `Custom Nodes` tab
-3. Search for "ComfyUI Show Seed"
-4. Click install
-
 ### Manual Installation
 ```bash
 cd ComfyUI/custom_nodes/
