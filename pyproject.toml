@@ -1,7 +1,7 @@
 [project]
 name = "show_seed"
 description = "A custom node that saves images while displaying the seed value used in generation"
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
 dependencies = ["pillow", "numpy"]
 
