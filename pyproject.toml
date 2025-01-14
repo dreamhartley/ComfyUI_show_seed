@@ -1,0 +1,15 @@
+[project]
+name = "show_seed"
+description = "A custom node that saves images while displaying the seed value used in generation"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/dreamhartley/ComfyUI_show_seed"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_show_seed"
+Icon = ""
