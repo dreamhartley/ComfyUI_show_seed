@@ -27,9 +27,8 @@ This custom node is now included in the ComfyUI Manager.
 
 1. Open ComfyUI Manager.
 2. Click on "Install Custom Nodes".
-3. Search for "Show Seed".
-4. Click "Install" next to the "ComfyUI Show Seed" entry.
-5. Restart ComfyUI.
+3. Search and click "Install" next to the "ComfyUI Show Seed" entry.
+4. Restart ComfyUI.
 
 ### Method 2: Manual Installation
 
