@@ -10,6 +10,6 @@ Repository = "https://github.com/dreamhartley/ComfyUI_show_seed"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "dreamhartley"
 DisplayName = "ComfyUI_show_seed"
 Icon = ""
